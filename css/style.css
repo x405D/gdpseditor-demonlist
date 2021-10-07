@@ -198,6 +198,21 @@ habilitar solo quitar esto que se encuentra entre esas dos lineas --> /*  */
     background-color: hsl(0, 76%, 42%);
 }
 
+.li-content .noyt {
+    background-color: #b5b5b5;
+    color: white;
+    position: absolute;
+    right: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.li-content .noyt:hover {
+    background-color: #d4d4d4;
+}
+
 .li-content .id {
     background-color: gray;
     color: white;
